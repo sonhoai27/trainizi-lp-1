@@ -4,7 +4,6 @@ import Features from '../components/Features';
 import MediaTestimonials from '../components/MediaTestimonials';
 import Media from '../components/Media';
 import NewsletterSignup from '../components/NewsletterSignup';
-import CTA from '../components/CTA';
 
 const Home = () => {
   return (
