@@ -14,7 +14,6 @@ const Home = () => {
       <MediaTestimonials />
       <Media />
       <NewsletterSignup />
-      <CTA />
     </main>
   );
 };
