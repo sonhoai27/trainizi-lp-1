@@ -1,0 +1,22 @@
+import React from 'react';
+import Hero from '../components/Hero';
+import Features from '../components/Features';
+import MediaTestimonials from '../components/MediaTestimonials';
+import Media from '../components/Media';
+import NewsletterSignup from '../components/NewsletterSignup';
+import CTA from '../components/CTA';
+
+const Home = () => {
+  return (
+    <main>
+      <Hero />
+      <Features />
+      <MediaTestimonials />
+      <Media />
+      <NewsletterSignup />
+      <CTA />
+    </main>
+  );
+};
+
+export default Home;
