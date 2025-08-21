@@ -1,4 +1,4 @@
-import React from 'react';
+import { useTranslations } from 'next-intl';
 
 interface MediaLogo {
   name: string;
@@ -40,13 +40,15 @@ const mediaLogos: MediaLogo[] = [
   }
 ];
 
-const MediaTestimonials: React.FC = () => {
+const MediaTestimonials = () => {
+  const t = useTranslations('MediaTestimonials');
+
   return (
     <section className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl text-black mb-4">
-            Featured by international media as a top AI solution for learning
+            {t('title')}
           </h2>
         </div>
         
@@ -68,6 +70,7 @@ const MediaTestimonials: React.FC = () => {
           ))}
         </div>
       </div>
+      <div className="pb-16"></div>
     </section>
   );
 };

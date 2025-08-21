@@ -1,37 +1,26 @@
 import React from 'react';
 
-const CTA: React.FC = () => {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    // Handle form submission logic here
-  };
+interface CTAProps {
+  title: string;
+  subtitle: string;
+  buttonText: string;
+  buttonLink: string;
+}
 
+const CTA = ({ title, subtitle, buttonText, buttonLink }: CTAProps) => {
   return (
-    <section className="bg-izi-700 text-white border-b-2 border-black">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 text-center">
-        <h2 className="text-4xl md:text-5xl font-extrabold tracking-tighter mb-6">
-          Join us to delight and liberate learning communities worldwide.
-        </h2>
-        <p className="text-lg text-izi-200 mb-8">
-          Subscribe for the latest updates on our AI, new features, and success stories from our partners.
-        </p>
-        <form 
-          className="w-full max-w-lg mx-auto flex flex-col sm:flex-row gap-3"
-          onSubmit={handleSubmit}
-        >
-          <input
-            type="email"
-            placeholder="Enter your email"
-            className="flex-grow w-full px-5 py-3 text-black font-semibold rounded-lg border-2 border-black focus:outline-none focus:ring-4 focus:ring-izi-400"
-            required
-          />
-          <button
-            type="submit"
-            className="bg-white text-black font-bold py-3 px-6 border-2 border-black rounded-lg shadow-neobrutal hover:shadow-neobrutal-sm transition-all transform hover:-translate-y-0.5 active:translate-y-0"
+    <section className="bg-white py-16">
+      <div className="container mx-auto px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-4">{title}</h2>
+          <p className="text-lg text-gray-700 mb-8">{subtitle}</p>
+          <a
+            href={buttonLink}
+            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg"
           >
-            Subscribe
-          </button>
-        </form>
+            {buttonText}
+          </a>
+        </div>
       </div>
     </section>
   );

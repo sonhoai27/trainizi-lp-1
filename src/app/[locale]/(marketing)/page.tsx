@@ -1,7 +1,6 @@
 import Hero from '@/components/Hero';
 import Features from '@/components/Features';
 import MediaTestimonials from '@/components/MediaTestimonials';
-import Media from '@/components/Media';
 import NewsletterSignup from '@/components/NewsletterSignup';
 import CallToBanner from '@/components/CallToBanner';
 import Header from '@/components/Header';
@@ -32,11 +31,10 @@ export default async function HomePage(props: IIndexProps) {
     <div className="min-h-screen bg-izi-50 font-sans text-gray-900">
       <CallToBanner />
       <Header />
-      <main>
+      <main className=''>
         <Hero />
         <Features />
         <MediaTestimonials />
-        <Media />
         <NewsletterSignup />
       </main>
       <Footer />

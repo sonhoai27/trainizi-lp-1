@@ -1,0 +1,130 @@
+{
+  "title": "Trainizi | Giảng viên AI thích ứng cho Microlearning quy mô lớn",
+  "description": "Nhanh chóng tạo và cung cấp nội dung microlearning ở tốc độ và quy mô lớn với AI. Giải pháp AI đoạt giải thưởng số 1 tại Đông Nam Á. Dành cho doanh nghiệp, trường học và cộng đồng.",
+  "navigation": {
+    "home": "Trang chủ",
+    "forEnterprises": "Cho doanh nghiệp",
+    "about": "Về chúng tôi",
+    "careers": "Tuyển dụng",
+    "blog": "Blog",
+    "contact": "Liên hệ",
+    "login": "Đăng nhập"
+  },
+  "hero": {
+    "title": "Một giảng viên AI năng động và thích ứng cho mọi mục đích giáo dục.",
+    "subtitle": "Giải pháp AI đoạt giải thưởng số 1 ASEAN",
+    "cta": "Bắt đầu",
+    "trial": "Học thử"
+  },
+  "features": {
+    "title": "Tại sao chọn Trainizi",
+    "subtitle": "Khám phá sức mạnh của giáo dục do AI định hướng",
+    "feature1": {
+      "title": "Khơi dậy với những câu hỏi đầy cảm hứng.",
+      "description": "Công cụ AI của chúng tôi khơi dậy sự tò mò và tư duy phản biện bằng cách đặt những câu hỏi phù hợp, quan trọng và kích thích tư duy."
+    },
+    "feature2": {
+      "title": "Kết nối với chiều sâu văn hóa.",
+      "description": "Mọi bài học đều được điều chỉnh để phù hợp với văn hóa và cộng đồng địa phương bằng ngôn ngữ, ẩn dụ, biểu tượng và thậm chí cả sự hài hước phù hợp."
+    },
+    "feature3": {
+      "title": "Hứng khởi với cách truyền đạt giải trí.",
+      "description": "Các bài học giàu phương tiện và tương tác của chúng tôi được tự động điều chỉnh để phù hợp với tốc độ và phong cách học tập của từng cá nhân - với tỷ lệ hoàn thành là 95%."
+    },
+    "feature4": {
+      "title": "Trao quyền với kết quả kinh tế.",
+      "description": "Công nghệ của chúng tôi cho phép các giảng viên phát triển và kiếm tiền từ các cộng đồng một cách năng động bằng nội dung giải trí giáo dục của họ."
+    }
+  },
+  "CallToBanner": {
+    "title": "LÊN LỊCH MỘT CUỘC GỌI ĐỂ TRẢI NGHIỆM CÔNG CỤ AI CỦA CHÚNG TÔI",
+    "button": "Đặt lịch Demo"
+  },
+  "footer": {
+    "copyright": "© {year} Trainizi. Đã đăng ký bản quyền.",
+    "description": "Trainizi là một công cụ hướng dẫn AI thích ứng được thiết kế cho mọi mục đích giáo dục: doanh nghiệp, trường học và cộng đồng.",
+    "solutions": {
+      "title": "Giải pháp",
+      "enterprises": "Cho doanh nghiệp",
+      "schools": "Cho trường học",
+      "communities": "Cho cộng đồng"
+    },
+    "company": {
+      "title": "Công ty",
+      "about": "Về chúng tôi",
+      "blog": "Blog",
+      "careers": "Tuyển dụng",
+      "contact": "Liên hệ"
+    },
+    "legal": {
+      "title": "Pháp lý",
+      "terms": "Điều khoản & Điều kiện",
+      "privacy": "Chính sách bảo mật"
+    }
+  },
+  "MediaTestimonials": {
+    "title": "Được truyền thông quốc tế giới thiệu là giải pháp AI hàng đầu cho việc học tập"
+  },
+  "language": {
+    "switch": "Chuyển đổi ngôn ngữ",
+    "english": "Tiếng Anh",
+    "vietnamese": "Tiếng Việt"
+  },
+  "Newsletter": {
+    "title": "Tham gia cùng chúng tôi để làm hài lòng và giải phóng các cộng đồng học tập trên toàn thế giới.",
+    "subtitle": "Đăng ký để nhận các bản cập nhật mới nhất",
+    "placeholder": "ten@example.com",
+    "subscribe": "Đăng ký",
+    "subscribing": "Đang đăng ký...",
+    "success": "Cảm ơn bạn đã đăng ký!",
+    "privacy": "Chúng tôi tôn trọng quyền riêng tư của bạn. Hủy đăng ký bất cứ lúc nào."
+  },
+  "contact": {
+    "title": "Để lại lời nhắn và chúng tôi sẽ liên hệ với bạn trong vòng 12 giờ.",
+    "form": {
+      "name": "Tên của bạn",
+      "phone": "Số điện thoại",
+      "email": "Địa chỉ email",
+      "company": "Tên công ty",
+      "purpose": "Mục đích liên hệ",
+      "source": "Bạn biết đến Trainizi từ đâu?",
+      "referral": "Giới thiệu",
+      "social": "Mạng xã hội",
+      "blog": "Blog của Trainizi",
+      "media": "Báo chí/Truyền thông",
+      "others": "Khác",
+      "submit": "Gửi"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Trên hành trình mang lại niềm vui và sự giải phóng cho việc học từ năm 2021",
+      "subtitle": "Chia sẻ niềm tin rằng giáo dục nên mang lại niềm vui và trao quyền cho người học để đưa ra các quyết định chất lượng hướng tới một cuộc sống tự chủ, chúng tôi đã bắt đầu Trainizi, trước đây gọi là iZi.",
+      "image1": "https://framerusercontent.com/images/OyfDyvsu1CBZ7okFKxIu5XgJCQ.png",
+      "image2": "https://framerusercontent.com/images/WxbEmyL76AsdUM9NstnqPwc.jpg",
+      "image3": "https://framerusercontent.com/images/AmxBHdodxPfjncssc8XBauSjmF0.png"
+    },
+    "story": {
+      "title": "Câu chuyện của chúng tôi",
+      "content1": "Hệ thống giáo dục hiện tại của chúng ta được thiết kế 200 năm trước để dạy cho các công nhân nhà máy tương lai “đúng giờ, ngoan ngoãn và tỉnh táo” để thích ứng với các yêu cầu của công nghiệp hóa và toàn cầu hóa thời bấy giờ.",
+      "content2": "Để đảm bảo hiệu quả tối đa, hệ thống đã được tiêu chuẩn hóa và phi cá nhân hóa với các chương trình giảng dạy, sách giáo khoa, bài giảng và chấm điểm. Các nhà tư bản công nghiệp ban đầu của chúng ta đã được hưởng lợi từ phương pháp luận một kích cỡ phù hợp với tất cả này, giúp họ có được nhiều công nhân để mở rộng quy mô theo chiều ngang. Tua nhanh đến ngày nay, “thời đại công nghiệp” đã lùi xa nhưng “học tập kiểu nhà máy” vẫn còn tồn tại.",
+      "image": "https://framerusercontent.com/images/OyfDyvsu1CBZ7okFKxIu5XgJCQ.png"
+    },
+    "mission": {
+      "title": "Chúng tôi tồn tại để khơi lại niềm vui và sự tự do đã từng là nền tảng của giáo dục.",
+      "content": "Đội ngũ sáng lập của chúng tôi là những người bạn suốt đời đến từ những hoàn cảnh và con đường học vấn trái ngược nhau, nhưng lại gắn kết với nhau bởi cùng một nỗi ám ảnh với sự đổi mới và tác động. <br /><br /> Heath đã hoàn thành nghiên cứu của mình về Phát triển Toàn cầu & Kinh doanh Quốc tế tại Châu Âu. Anh đã dành sự nghiệp của mình để vận hành và mở rộng quy mô kinh doanh mới trong lĩnh vực AI/dữ liệu, tư vấn và giáo dục. <br /><br /> Huy có bằng Tiến sĩ. từ Hoa Kỳ và là Phó Giáo sư tại Đại học New York Tandon & CNYU City College. Ông có hơn 15 năm kinh nghiệm nghiên cứu và học thuật trong các lĩnh vực khoa học dữ liệu, dữ liệu lớn và học máy. <br /><br /> Họ có nguồn gốc từ Việt Nam nhưng đã đi du lịch, sống và làm việc trên khắp thế giới, điều này đã nuôi dưỡng mong muốn của họ mang giáo dục toàn cầu đến các cộng đồng chưa được phục vụ ở Việt Nam và các cộng đồng Việt Nam, cùng với nền văn hóa hấp dẫn và sâu sắc của họ, ra thế giới.",
+      "image": "https://framerusercontent.com/images/WxbEmyL76AsdUM9NstnqPwc.jpg"
+    },
+    "team": {
+      "title": "Con người của chúng tôi."
+    },
+    "advisors": {
+      "title": "Được tư vấn và hỗ trợ bởi các nhà đổi mới, nhà khoa học, nhà giáo dục, nhà đầu tư và doanh nhân từ"
+    },
+    "journey": {
+      "title": "Hãy đồng hành cùng chúng tôi trên hành trình này.",
+      "subtitle": "Tham gia cùng chúng tôi để mang lại niềm vui và giải phóng các cộng đồng học tập trên toàn thế giới.",
+      "image": "https://framerusercontent.com/images/OyfDyvsu1CBZ7okFKxIu5XgJCQ.png"
+    }
+  }
+}

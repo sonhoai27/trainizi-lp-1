@@ -1,16 +1,15 @@
 import Image from 'next/image';
 
-const Team = () => {
+interface TeamProps {
+  title: string;
+}
+
+const Team = ({ title }: TeamProps) => {
   return (
     <section className="bg-white py-16">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Our people.</h2>
-          <p className="text-lg text-gray-700 mb-12">
-            An experienced, international & multi-disciplinary founding team
-            with combined expertise in instructional design, venture building,
-            and machine learning.
-          </p>
+          <h2 className="text-3xl font-bold mb-4">{title}</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-gray-100 p-8 rounded-lg text-center">

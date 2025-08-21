@@ -7,25 +7,124 @@
     "about": "About",
     "careers": "Careers",
     "blog": "Blog",
-    "contact": "Contact"
+    "contact": "Contact",
+    "login": "Log in"
   },
   "hero": {
-    "title": "AI-Powered Educational Platform",
-    "subtitle": "Transform your learning experience with Trainizi",
-    "cta": "Get Started"
+    "title": "A dynamic & adaptive AI instructor for all educational purposes.",
+    "subtitle": "#1 ASEAN Award-Winning AI Solution",
+    "cta": "Get Started",
+    "trial": "Take a Trial Lesson"
   },
   "features": {
     "title": "Why Choose Trainizi",
-    "subtitle": "Discover the power of AI-driven education"
+    "subtitle": "Discover the power of AI-driven education",
+    "feature1": {
+      "title": "Ignite with inspiring questions.",
+      "description": "Our AI engine ignites curiosity and critical thinking by asking relevant, critical and thought-provoking questions."
+    },
+    "feature2": {
+      "title": "Connect with cultural depth.",
+      "description": "Every learning is adapted to the local culture and community with the right language, metaphors, symbolisms and even humor."
+    },
+    "feature3": {
+      "title": "Excite with entertaining delivery.",
+      "description": "Our media-rich and interactive lessons are auto-adjusted to fit individual learning speed and style - at a completion rate of 95%."
+    },
+    "feature4": {
+      "title": "Empower with economic outcome.",
+      "description": "Our technology enables instructors to dynamically grow and monetize communities with their edutainment content."
+    }
+  },
+  "CallToBanner": {
+    "title": "SCHEDULE A CALL TO EXPERIENCE OUR AI ENGINE AT WORK",
+    "button": "Book a Demo"
   },
   "footer": {
-    "copyright": "© 2024 Trainizi. All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+    "copyright": "© {year} Trainizi. All rights reserved.",
+    "description": "Trainizi is an adaptive AI instruction engine designed for all educational purposes: enterprises, schools, and communities.",
+    "solutions": {
+      "title": "Solutions",
+      "enterprises": "For Enterprises",
+      "schools": "For Schools",
+      "communities": "For Communities"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "blog": "Blog",
+      "careers": "Careers",
+      "contact": "Contact"
+    },
+    "legal": {
+      "title": "Legal",
+      "terms": "Terms & Conditions",
+      "privacy": "Privacy Policy"
+    }
+  },
+  "MediaTestimonials": {
+    "title": "Featured by international media as a top AI solution for learning"
   },
   "language": {
     "switch": "Switch Language",
     "english": "English",
-    "spanish": "Español"
+    "vietnamese": "Vietnamese"
+  },
+  "Newsletter": {
+    "title": "Join us to delight and liberate learning communities worldwide.",
+    "subtitle": "Subscribe for the latest updates",
+    "placeholder": "name@example.com",
+    "subscribe": "Subscribe",
+    "subscribing": "Subscribing...",
+    "success": "Thank you for subscribing!",
+    "privacy": "We respect your privacy. Unsubscribe at any time."
+  },
+  "contact": {
+    "title": "Leave a message and we'll reach out to you within 12 hours.",
+    "form": {
+      "name": "Your Name",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "company": "Company Name",
+      "purpose": "Purpose of Contact",
+      "source": "How did you learn about Trainizi?",
+      "referral": "Referral",
+      "social": "Social Media",
+      "blog": "Trainizi's Blog",
+      "media": "Press/Media",
+      "others": "Others",
+      "submit": "Submit"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "On a journey to bring delight and liberation to learning since 2021",
+      "subtitle": "Sharing a belief that education should bring joy and empower its learners to make quality decisions towards a self-sustaining life, we started Trainizi, previously known as iZi.",
+      "image1": "https://framerusercontent.com/images/OyfDyvsu1CBZ7okFKxIu5XgJCQ.png",
+      "image2": "https://framerusercontent.com/images/WxbEmyL76AsdUM9NstnqPwc.jpg",
+      "image3": "https://framerusercontent.com/images/AmxBHdodxPfjncssc8XBauSjmF0.png"
+    },
+    "story": {
+      "title": "Our Story",
+      "content1": "Our current education system was designed 200 years ago to teach future factory workers to be “punctual, docile, and sober” to adapt with the requirements of industrialization and globalization back then.",
+      "content2": "To ensure maximum efficiency, the system was standardized and impersonalized with curriculums, textbooks, lectures, and grading. Our early industrial capitalists benefited from this one-size-fit-all methodology which helped them acquire abundant workers to scale horizontally. Fast forward to today, the “industrial era” is long behind us but “factory learning” is still alive.",
+      "image": "https://framerusercontent.com/images/OyfDyvsu1CBZ7okFKxIu5XgJCQ.png"
+    },
+    "mission": {
+      "title": "We exist to re-ignite the joy and freedom that was once the foundation of education.",
+      "content": "Our founding team are lifelong friends who come from contrasting backgrounds and education paths, yet bond over the same obsession with innovation and impact. <br /><br /> Heath completed his studies in Global Development & International Business in Europe. He has spent his career operating & scaling new business in AI/data, consulting, & education. <br /><br /> Huy holds a PhD. from the United States & is an Associate Professor at New York University Tandon & CNYU City College. He has over 15 years of research and academic experience in the fields of data science, big data, & machine learning. <br /><br /> They are rooted in Vietnam yet traveled, lived and worked around the globe, which nurtured their desire to bring global education to underserved communities in Vietnam and Vietnamese communities, along with their fascinating and deep-rooted culture, to the world.",
+      "image": "https://framerusercontent.com/images/WxbEmyL76AsdUM9NstnqPwc.jpg"
+    },
+    "team": {
+      "title": "Our people."
+    },
+    "advisors": {
+      "title": "Advised and backed by innovators, scientists, educators, investors & entrepreneurs from"
+    },
+    "journey": {
+      "title": "Be with us on this journey.",
+      "subtitle": "Join us to delight and liberate learning communities worldwide.",
+      "image": "https://framerusercontent.com/images/OyfDyvsu1CBZ7okFKxIu5XgJCQ.png"
+    }
   }
 }

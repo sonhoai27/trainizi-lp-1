@@ -1,7 +1,7 @@
 'use client';
 
 import { useLocale, useTranslations } from 'next-intl';
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname, useRouter } from '@/libs/i18nNavigation';
 import { useState } from 'react';
 
 export default function LanguageSwitcher() {
@@ -12,8 +12,7 @@ export default function LanguageSwitcher() {
   const t = useTranslations('language');
 
   const switchLanguage = (newLocale: string) => {
-    const newPathname = pathname.replace(`/${locale}`, `/${newLocale}`);
-    router.push(newPathname);
+    router.push(pathname, { locale: newLocale });
     setIsOpen(false);
   };
 
@@ -43,12 +42,12 @@ export default function LanguageSwitcher() {
             {t('english')}
           </button>
           <button
-            onClick={() => switchLanguage('es')}
+            onClick={() => switchLanguage('vi')}
             className={`block w-full text-left px-4 py-2 text-sm hover:bg-gray-100 ${
-              locale === 'es' ? 'text-izi-600 font-medium' : 'text-gray-700'
+              locale === 'vi' ? 'text-izi-600 font-medium' : 'text-gray-700'
             }`}
           >
-            {t('spanish')}
+            {t('vietnamese')}
           </button>
         </div>
       )}

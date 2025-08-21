@@ -1,8 +1,10 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import React, { useState } from 'react';
 
-const NewsletterSignup: React.FC = () => {
+const NewsletterSignup = () => {
+  const t = useTranslations('Newsletter');
   const [email, setEmail] = useState<string>('');
   const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -29,10 +31,10 @@ const NewsletterSignup: React.FC = () => {
     <section className="bg-gradient-to-r from-gray-900 to-black text-white py-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl sm:text-4xl text-white mb-4">
-          Join us to delight and liberate learning communities worldwide.
+          {t('title')}
         </h2>
         <p className="text-lg text-gray-300 mb-8">
-          Subscribe for the latest updates
+          {t('subtitle')}
         </p>
         
         {isSubmitted ? (
@@ -40,7 +42,7 @@ const NewsletterSignup: React.FC = () => {
             <svg className="inline w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
             </svg>
-            Thank you for subscribing!
+            {t('success')}
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="max-w-md mx-auto">
@@ -49,7 +51,7 @@ const NewsletterSignup: React.FC = () => {
                 type="email"
                 value={email}
                 onChange={handleEmailChange}
-                placeholder="name@example.com"
+                placeholder={t('placeholder')}
                 className="flex-1 px-4 py-3 rounded-lg text-black focus:outline-none"
                 required
               />
@@ -58,14 +60,14 @@ const NewsletterSignup: React.FC = () => {
                 disabled={isLoading}
                 className="bg-gray-700 hover:bg-gray-600 text-white py-3 px-6 rounded-lg transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap"
               >
-                {isLoading ? 'Subscribing...' : 'Subscribe'}
+                {isLoading ? t('subscribing') : t('subscribe')}
               </button>
             </div>
           </form>
         )}
         
         <p className="text-gray-400 text-sm mt-4">
-          We respect your privacy. Unsubscribe at any time.
+          {t('privacy')}
         </p>
       </div>
     </section>
