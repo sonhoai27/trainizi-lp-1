@@ -1,0 +1,31 @@
+{
+  "title": "Trainizi | Adaptive AI Instructor for large-scale Microlearning",
+  "description": "Rapidly create and deliver microlearning content at speed & scale with AI. #1 award-winning AI solution in Southeast Asia. For enterprises, schools and communities.",
+  "navigation": {
+    "home": "Home",
+    "forEnterprises": "For Enterprises",
+    "about": "About",
+    "careers": "Careers",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "AI-Powered Educational Platform",
+    "subtitle": "Transform your learning experience with Trainizi",
+    "cta": "Get Started"
+  },
+  "features": {
+    "title": "Why Choose Trainizi",
+    "subtitle": "Discover the power of AI-driven education"
+  },
+  "footer": {
+    "copyright": "© 2024 Trainizi. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "language": {
+    "switch": "Switch Language",
+    "english": "English",
+    "spanish": "Español"
+  }
+}
