@@ -1,7 +1,12 @@
-
 import React from 'react';
 
-const mediaLogos = [
+interface MediaLogo {
+  name: string;
+  imageUrl: string;
+  link: string;
+}
+
+const mediaLogos: MediaLogo[] = [
   {
     name: 'Media 1',
     imageUrl: 'https://framerusercontent.com/images/OSlEvxV1EPm3vfi8dbfnUqreSlQ.png?scale-down-to=1024',
@@ -29,7 +34,7 @@ const mediaLogos = [
   },
 ];
 
-const Media = () => {
+const Media: React.FC = () => {
   return (
     <section className="bg-white py-20 sm:py-28 border-b-2 border-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

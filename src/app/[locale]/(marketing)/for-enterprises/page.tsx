@@ -1,5 +1,3 @@
-import Link from 'next/link';
-import { useLocale } from 'next-intl';
 import CallToBanner from '@/components/CallToBanner';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';

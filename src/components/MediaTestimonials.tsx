@@ -1,6 +1,13 @@
 import React from 'react';
 
-const mediaLogos = [
+interface MediaLogo {
+  name: string;
+  src: string;
+  link: string;
+  alt: string;
+}
+
+const mediaLogos: MediaLogo[] = [
   {
     name: 'YouTube',
     src: 'https://framerusercontent.com/images/OSlEvxV1EPm3vfi8dbfnUqreSlQ.png?scale-down-to=1024',
@@ -33,7 +40,7 @@ const mediaLogos = [
   }
 ];
 
-const MediaTestimonials = () => {
+const MediaTestimonials: React.FC = () => {
   return (
     <section className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

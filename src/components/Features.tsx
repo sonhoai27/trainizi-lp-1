@@ -1,7 +1,15 @@
-
 import React from 'react';
 
-const featuresData = [
+interface Feature {
+  title: string;
+  description: string;
+  gif: string;
+  layout: 'text-left' | 'text-right';
+}
+
+interface FeatureSectionProps extends Feature {}
+
+const featuresData: Feature[] = [
   {
     title: 'Ignite with inspiring questions.',
     description: 'Our AI engine ignites curiosity and critical thinking by asking relevant, critical and thought-provoking questions.',
@@ -28,7 +36,7 @@ const featuresData = [
   },
 ];
 
-const FeatureSection = ({ title, description, gif, layout }) => (
+const FeatureSection: React.FC<FeatureSectionProps> = ({ title, description, gif, layout }) => (
   <div className="py-16">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${layout === 'text-right' ? 'lg:grid-flow-col-dense' : ''}`}>
@@ -51,8 +59,7 @@ const FeatureSection = ({ title, description, gif, layout }) => (
   </div>
 );
 
-
-const Features = () => {
+const Features: React.FC = () => {
   return (
     <section className="bg-white">
       {featuresData.map((feature, index) => (

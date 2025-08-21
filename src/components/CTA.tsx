@@ -1,6 +1,11 @@
 import React from 'react';
 
-const CTA = () => {
+const CTA: React.FC = () => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    // Handle form submission logic here
+  };
+
   return (
     <section className="bg-izi-700 text-white border-b-2 border-black">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 text-center">
@@ -10,7 +15,10 @@ const CTA = () => {
         <p className="text-lg text-izi-200 mb-8">
           Subscribe for the latest updates on our AI, new features, and success stories from our partners.
         </p>
-        <form className="w-full max-w-lg mx-auto flex flex-col sm:flex-row gap-3">
+        <form 
+          className="w-full max-w-lg mx-auto flex flex-col sm:flex-row gap-3"
+          onSubmit={handleSubmit}
+        >
           <input
             type="email"
             placeholder="Enter your email"

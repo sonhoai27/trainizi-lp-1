@@ -2,12 +2,12 @@
 
 import React, { useState } from 'react';
 
-const NewsletterSignup = () => {
-  const [email, setEmail] = useState('');
-  const [isSubmitted, setIsSubmitted] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
+const NewsletterSignup: React.FC = () => {
+  const [email, setEmail] = useState<string>('');
+  const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!email) return;
     
@@ -19,6 +19,10 @@ const NewsletterSignup = () => {
       setIsLoading(false);
       setEmail('');
     }, 1000);
+  };
+
+  const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setEmail(e.target.value);
   };
 
   return (
@@ -44,7 +48,7 @@ const NewsletterSignup = () => {
               <input
                 type="email"
                 value={email}
-                onChange={(e) => setEmail(e.target.value)}
+                onChange={handleEmailChange}
                 placeholder="name@example.com"
                 className="flex-1 px-4 py-3 rounded-lg text-black focus:outline-none"
                 required

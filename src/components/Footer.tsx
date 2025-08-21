@@ -1,16 +1,6 @@
-
 import React from 'react';
 
-const Footer = () => {
-  const footerLinks = [
-    { name: 'Home', href: '#' },
-    { name: 'For Enterprises', href: '#' },
-    { name: 'About', href: '#' },
-    { name: 'Careers', href: '#' },
-    { name: 'News', href: '#' },
-    { name: 'Contact', href: '#' },
-    { name: 'Terms & Conditions', href: '#' },
-  ];
+const Footer: React.FC = () => {
 
   return (
     <footer className="bg-black text-white">
@@ -18,7 +8,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="space-y-4">
             <a href="#" className="flex items-center space-x-2">
-              <img className="h-8 w-auto bg-white rounded-full p-1" src="https://framerusercontent.com/images/xgcyBgjh9eQgKC89h9k2QITNSIw.png?scale-down-to=512" alt="Trainizi Logo" />
+              <img 
+                className="h-8 w-auto bg-white rounded-full p-1" 
+                src="https://framerusercontent.com/images/xgcyBgjh9eQgKC89h9k2QITNSIw.png?scale-down-to=512" 
+                alt="Trainizi Logo" 
+              />
               <span className="text-2xl font-extrabold text-white">trainizi</span>
             </a>
             <p className="text-gray-400">
