@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
@@ -7,9 +8,63 @@ import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata = {
-  title: 'Trainizi - AI-Powered Educational Platform',
-  description: 'Transform your learning experience with Trainizi',
+export const metadata: Metadata = {
+  metadataBase: new URL('https://trainizi.com'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+      'vi': '/vi',
+    },
+  },
+  title: "Trainizi | Adaptive AI Instructor for large-scale Microlearning",
+  description: "Rapidly create and deliver microlearning content at speed & scale with AI. #1 award-winning AI solution in Southeast Asia. For enterprises, schools and communities.",
+  icons: {
+    icon: '/assets/logo.webp',
+  },
+  openGraph: {
+    title: 'Trainizi | Adaptive AI Instructor for large-scale Microlearning',
+    description: 'Rapidly create and deliver microlearning content at speed & scale with AI. #1 award-winning AI solution in Southeast Asia. For enterprises, schools and communities.',
+    url: 'https://trainizi.com',
+    siteName: 'Trainizi',
+    images: [
+      {
+        url: 'https://trainizi.com/assets/banner.webp',
+        width: 800,
+        height: 600,
+      },
+      {
+        url: 'https://trainizi.com/assets/banner.webp',
+        width: 1800,
+        height: 1600,
+        alt: 'Trainizi',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  robots: {
+    index: false,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Trainizi | Adaptive AI Instructor for large-scale Microlearning',
+    description: 'Rapidly create and deliver microlearning content at speed & scale with AI. #1 award-winning AI solution in Southeast Asia. For enterprises, schools and communities.',
+    siteId: '1467726470533754880',
+    creator: '@trainizi',
+    creatorId: '1467726470533754880',
+    images: ['https://trainizi.com/assets/banner.webp'],
+  },
 };
 
 export function generateStaticParams() {

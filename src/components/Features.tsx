@@ -55,25 +55,25 @@ const Features: React.FC = () => {
     {
       title: t('feature1.title'),
       description: t('feature1.description'),
-      gif: 'https://framerusercontent.com/images/4DCYaF07OMmhVbUjfU3rHUZFnCQ.gif',
+      gif: '/assets/framer/4DCYaF07OMmhVbUjfU3rHUZFnCQ.gif',
       layout: 'text-left'
     },
     {
       title: t('feature2.title'),
       description: t('feature2.description'),
-      gif: 'https://framerusercontent.com/images/NPKInYNf2FnlnQ0uyCkwQLsNI.gif',
+      gif: '/assets/framer/NPKInYNf2FnlnQ0uyCkwQLsNI.gif',
       layout: 'text-right'
     },
     {
       title: t('feature3.title'),
       description: t('feature3.description'),
-      gif: 'https://framerusercontent.com/images/NYvelptljsUJfpdn6FK9V7Gm8g.gif',
+      gif: '/assets/framer/NYvelptljsUJfpdn6FK9V7Gm8g.gif',
       layout: 'text-left'
     },
     {
       title: t('feature4.title'),
       description: t('feature4.description'),
-      gif: 'https://framerusercontent.com/images/oG9TGXQHz5fR2pMFxVhyKumf6ko.gif',
+      gif: '/assets/framer/oG9TGXQHz5fR2pMFxVhyKumf6ko.gif',
       layout: 'text-right'
     },
   ];

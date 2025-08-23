@@ -57,7 +57,7 @@ const Header = () => {
             <div className="flex-shrink-0">
               <Link href={`/${locale}`} className="flex items-center space-x-2">
               <Image
-                src="https://framerusercontent.com/images/xgcyBgjh9eQgKC89h9k2QITNSIw.png?scale-down-to=512"
+                src="/assets/framer/xgcyBgjh9eQgKC89h9k2QITNSIw.png"
                 alt="Trainizi Logo"
                 width={40}
                 height={40}

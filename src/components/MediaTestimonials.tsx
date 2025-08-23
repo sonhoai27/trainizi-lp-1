@@ -10,31 +10,31 @@ interface MediaLogo {
 const mediaLogos: MediaLogo[] = [
   {
     name: 'YouTube',
-    src: 'https://framerusercontent.com/images/OSlEvxV1EPm3vfi8dbfnUqreSlQ.png?scale-down-to=1024',
+    src: '/assets/framer/OSlEvxV1EPm3vfi8dbfnUqreSlQ.png',
     link: 'https://www.youtube.com/watch?v=Bv0j3V0xmfA',
     alt: 'YouTube logo'
   },
   {
     name: 'Naver',
-    src: 'https://framerusercontent.com/images/kgxoysjexl24Z32kSWDYwfnQs4.webp?scale-down-to=512',
+    src: '/assets/framer/kgxoysjexl24Z32kSWDYwfnQs4.webp',
     link: 'https://n.news.naver.com/article/029/0002843090?sid=105',
     alt: 'Naver News logo'
   },
   {
     name: 'Facebook',
-    src: 'https://framerusercontent.com/images/7gaisJ3TcQ4jA9iG5GipHZVHs.png?scale-down-to=2048',
+    src: '/assets/framer/7gaisJ3TcQ4jA9iG5GipHZVHs.png',
     link: 'https://fb.watch/prsHIsFphf/?mibextid=v7YzmG',
     alt: 'Facebook logo'
   },
   {
     name: 'TuoiTre',
-    src: 'https://framerusercontent.com/images/wq66Lxd95tCi92L3epBvqHwaEM.png?scale-down-to=1024',
+    src: '/assets/framer/wq66Lxd95tCi92L3epBvqHwaEM.png',
     link: 'https://tuoitre.vn/trainizi-bai-hoc-1-phut-cho-nguoi-lao-dong-20240125153905683.htm',
     alt: 'TuoiTre newspaper logo'
   },
   {
     name: 'ThanhNien',
-    src: 'https://framerusercontent.com/images/W26FhLIeU3Yc1kBzUSgSBm2nP0.png?scale-down-to=1024',
+    src: '/assets/framer/W26FhLIeU3Yc1kBzUSgSBm2nP0.png',
     link: 'https://thanhnien.vn/startup-cong-nghe-viet-trainizi-duoc-vinh-danh-tai-han-quoc-185230915010710976.htm',
     alt: 'ThanhNien newspaper logo'
   }

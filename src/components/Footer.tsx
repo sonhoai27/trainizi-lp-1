@@ -11,7 +11,7 @@ const Footer = () => {
             <a href="#" className="flex items-center space-x-2">
               <img
                 className="h-8 w-auto bg-white rounded-full p-1"
-                src="https://framerusercontent.com/images/xgcyBgjh9eQgKC89h9k2QITNSIw.png?scale-down-to=512"
+                src="/assets/framer/xgcyBgjh9eQgKC89h9k2QITNSIw.png"
                 alt="Trainizi Logo"
               />
               <span className="text-2xl font-extrabold text-white">trainizi</span>

@@ -22,7 +22,7 @@ const Vision = () => {
       </div>
       <div className="mt-12 mx-auto max-w-7xl">
         <Image
-          src="https://framerusercontent.com/images/mcn5tDtr76yDdjTfkW8IY5dpts.png"
+          src="/assets/framer/mcn5tDtr76yDdjTfkW8IY5dpts.png"
           alt="Vision"
           width={1200}
           height={675}

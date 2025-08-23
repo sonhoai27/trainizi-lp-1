@@ -14,7 +14,7 @@ const Mission = () => {
         <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
           <div className="relative h-96">
             <Image
-              src="https://framerusercontent.com/images/WxbEmyL76AsdUM9NstnqPwc.jpg"
+              src="/assets/framer/WxbEmyL76AsdUM9NstnqPwc.jpg"
               alt="Our Mission"
               layout="fill"
               objectFit="cover"

@@ -14,7 +14,15 @@
     "title": "A dynamic & adaptive AI instructor for all educational purposes.",
     "subtitle": "#1 ASEAN Award-Winning AI Solution",
     "cta": "Get Started",
-    "trial": "Take a Trial Lesson"
+    "trial": "Take a Trial Lesson",
+    "bookDemo": "Book A Demo",
+    "incomeInfo": "(*) higher income per employee when training is delivered effectively",
+    "timeCostSaved": "time and cost saved",
+    "dataProcessed": "learning data processed & analyzed",
+    "qnaBot": "Q&A with an in-house trainer bot",
+    "swiftly": "Swiftly",
+    "integratedSystem": "and securely integrated to your system",
+    "source": "(*) Source: Association of Training & Development"
   },
   "features": {
     "title": "Why Choose Trainizi",
@@ -36,9 +44,24 @@
       "description": "Our technology enables instructors to dynamically grow and monetize communities with their edutainment content."
     }
   },
+  "Service": {
+    "title": "Catered to complex & <br /> large-scale training needs",
+    "cardTitle": "Internal Training",
+    "cardSubtitle": "10,000+ employees",
+    "cardContent": "- Onboarding training<br />- Compliance training<br />- Process training<br />- Product & Services training"
+  },
   "CallToBanner": {
     "title": "SCHEDULE A CALL TO EXPERIENCE OUR AI ENGINE AT WORK",
     "button": "Book a Demo"
+  },
+  "Testimonial": {
+    "title": "Trusted by training professionals from 50+ organizations",
+    "minaChungName": "Mina Chung",
+    "minaChungRole": "Financial Literacy Director @Money With Mina",
+    "minaChungQuote": "“I have worked with many training platforms before, but Trainizi really gets us. It’s rare to find that kind of genuine care in the industry, and I appreciate to call them a true partner.”",
+    "jamesCooperName": "James Cooper",
+    "jamesCooperRole": "IELTS Lecturer @Capital Education",
+    "jamesCooperQuote": "\"Integrating Trainizi into our LMS was quick and smooth. Now we have an advanced tool to assign homework, do live quizzes, and creating short courses for our students to learn at their own pace.\""
   },
   "footer": {
     "copyright": "© {year} Trainizi. All rights reserved.",
@@ -61,6 +84,20 @@
       "terms": "Terms & Conditions",
       "privacy": "Privacy Policy"
     }
+  },
+  "Feature": {
+    "ourCore": "Our core",
+    "aiModels": "✦ AI models",
+    "revolutionize": "revolutionize",
+    "contentCreationDelivery": "Content Creation & Content Delivery",
+    "rapidContentCreation": "Rapid Content Creation",
+    "rapidFeature1": "From complex books/PDFs and long videos to micro-courses",
+    "rapidFeature2": "Instructional algorithm to optimize content for mobile learning behaviors",
+    "rapidFeature3": "Easy-to-use interface to review, edit & publish content",
+    "personalizedDelivery": "Personalized & Social Delivery",
+    "personalizedFeature1": "1-min media-rich & interactive micro-lessons",
+    "personalizedFeature2": "Social learning experience through groups",
+    "personalizedFeature3": "Personal AI-tutor with 24/7 readiness"
   },
   "MediaTestimonials": {
     "title": "Featured by international media as a top AI solution for learning"
@@ -100,9 +137,9 @@
     "hero": {
       "title": "On a journey to bring delight and liberation to learning since 2021",
       "subtitle": "Sharing a belief that education should bring joy and empower its learners to make quality decisions towards a self-sustaining life, we started Trainizi, previously known as iZi.",
-      "image1": "https://framerusercontent.com/images/OyfDyvsu1CBZ7okFKxIu5XgJCQ.png",
-      "image2": "https://framerusercontent.com/images/WxbEmyL76AsdUM9NstnqPwc.jpg",
-      "image3": "https://framerusercontent.com/images/AmxBHdodxPfjncssc8XBauSjmF0.png"
+      "image1": "/assets/framer/OyfDyvsu1CBZ7okFKxIu5XgJCQ.png",
+      "image2": "/assets/framer/WxbEmyL76AsdUM9NstnqPwc.jpg",
+      "image3": "/assets/framer/AmxBHdodxPfjncssc8XBauSjmF0.png"
     },
     "story": {
       "title": "Our Story",
@@ -110,12 +147,12 @@
       "content2": "Heath completed his studies in Global Development & International Business in Europe. He has spent his career operating & scaling new business in AI/data, consulting, & education.",
       "content3": "Huy holds a PhD. from the United States & is an Associate Professor at New York University Tandon & CNYU City College. He has over 15 years of research and academic experience in the fields of data science, big data, & machine learning.",
       "content4": "They are rooted in Vietnam yet traveled, lived and worked around the globe, which nurtured their desire to bring global education to underserved communities in Vietnam and Vietnamese communities, along with their fascinating and deep-rooted culture, to the world.",
-      "image": "https://framerusercontent.com/images/OyfDyvsu1CBZ7okFKxIu5XgJCQ.png"
+      "image": "/assets/framer/OyfDyvsu1CBZ7okFKxIu5XgJCQ.png"
     },
     "mission": {
       "title": "We exist to re-ignite the joy and freedom that was once the foundation of education.",
       "content": "Our founding team are lifelong friends who come from contrasting backgrounds and education paths, yet bond over the same obsession with innovation and impact. <br /><br /> Heath completed his studies in Global Development & International Business in Europe. He has spent his career operating & scaling new business in AI/data, consulting, & education. <br /><br /> Huy holds a PhD. from the United States & is an Associate Professor at New York University Tandon & CNYU City College. He has over 15 years of research and academic experience in the fields of data science, big data, & machine learning. <br /><br /> They are rooted in Vietnam yet traveled, lived and worked around the globe, which nurtured their desire to bring global education to underserved communities in Vietnam and Vietnamese communities, along with their fascinating and deep-rooted culture, to the world.",
-      "image": "https://framerusercontent.com/images/WxbEmyL76AsdUM9NstnqPwc.jpg"
+      "image": "/assets/framer/WxbEmyL76AsdUM9NstnqPwc.jpg"
     },
     "team": {
       "title": "Our People",
@@ -129,7 +166,7 @@
             "💜 Loves dogs & trekking",
             "😎 Often described as: \"intellectually honest\""
           ],
-          "image": "https://framerusercontent.com/images/AmxBHdodxPfjncssc8XBauSjmF0.png?scale-down-to=512",
+          "image": "/assets/framer/AmxBHdodxPfjncssc8XBauSjmF0.png",
           "quote": "\"Education is not preparation for life; education is life itself.\"",
           "quoteAuthor": "John Dewey"
         },
@@ -142,7 +179,7 @@
             "💜 Loves resting & K-dramas",
             "😎 Often described as: \"peacefully competitive\""
           ],
-          "image": "https://framerusercontent.com/images/hdWKQrznIjjLpArw0MqvOstlX4.png?scale-down-to=512",
+          "image": "/assets/framer/hdWKQrznIjjLpArw0MqvOstlX4.png",
           "quote": "\"Live as if you were to die tomorrow. Learn as if you were to live forever.\"",
           "quoteAuthor": "Mahatma Gandhi"
         },
@@ -155,7 +192,7 @@
             "💜 Loves the cinema & biking",
             "😎 Often described as: \"emotionally rational\""
           ],
-          "image": "https://framerusercontent.com/images/5Uhr6JGSVDwg41gDWSvPilgjT6k.jpg",
+          "image": "/assets/framer/5Uhr6JGSVDwg41gDWSvPilgjT6k.jpg",
           "quote": "\"We got consciousness not just by being clever. If you didn't have any conscious beings in the world, there really wouldn't be morality but with consciousness that you have it.\"",
           "quoteAuthor": "Roger Penrose"
         }
@@ -188,6 +225,37 @@
       "title": "Be with us on this journey.",
       "button": "Leave your email here",
       "follow": "Follow us"
+    }
+  },
+  "CTA": {
+    "title": "Further consultation needed?",
+    "subtitle": "Call (+84) 909 077 626 or fill in the following form",
+    "namePlaceholder": "Your name",
+    "phonePlaceholder": "Phone Number",
+    "emailPlaceholder": "Email Address",
+    "companyPlaceholder": "Company Name",
+    "learnersPlaceholder": "Number of Learners",
+    "learnersOption1": "Less than 100",
+    "learnersOption2": "100 - 500",
+    "learnersOption3": "500 - 2,000",
+    "learnersOption4": "2,000 - 5,000",
+    "learnersOption5": "5,000 - 10,000",
+    "learnersOption6": "More than 10,000",
+    "messagePlaceholder": "Your Message (optional)",
+    "submitButton": "Submit"
+  },
+"ForEnterprises": {
+    "Hero": {
+      "title": "Scale your training with our",
+      "subtitle": "✦ plug-and-play academy",
+      "incomeInfo": "(*) higher income per employee when training is delivered effectively",
+      "bookDemo": "Book A Demo",
+      "timeCostSaved": "time and cost saved",
+      "dataProcessed": "learning data processed & analyzed",
+      "qnaBot": "Q&A with an in-house trainer bot",
+      "swiftly": "Swiftly",
+      "integratedSystem": "and securely integrated to your system",
+      "source": "(*) Source: Association of Training & Development"
     }
   },
   "terms": {

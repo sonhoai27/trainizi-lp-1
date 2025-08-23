@@ -14,7 +14,7 @@ const Story = () => {
           <div className="p-8 border border-solid border-neutral-300 bg-white rounded-xl">
             <div className="mb-8 flex items-center">
               <Image
-                src="https://framerusercontent.com/images/0XDpmLX4pzx1BHIKsowMpDpZEsk.png?scale-down-to=1024"
+                src="/assets/framer/0XDpmLX4pzx1BHIKsowMpDpZEsk.png"
                 alt={t("testimonial.name")}
                 width={48}
                 height={48}
@@ -44,7 +44,7 @@ const Story = () => {
         <div className="mt-10 mx-auto max-w-7xl flex flex-col md:flex-row items-stretch">
           <div className="md:w-1/2">
             <Image
-              src="https://framerusercontent.com/images/WxbEmyL76AsdUM9NstnqPwc.jpg"
+              src="/assets/framer/WxbEmyL76AsdUM9NstnqPwc.jpg"
               alt="Founders"
               width={1009}
               height={1000}

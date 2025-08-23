@@ -5,19 +5,19 @@ const Advisors = () => {
   const t = useTranslations('about.advisors');
   const logos = [
     {
-      src: 'https://framerusercontent.com/images/LQW9UDEkUFXwNhGAdm8ob9HDcK8.png',
+      src: '/assets/framer/LQW9UDEkUFXwNhGAdm8ob9HDcK8.png',
       alt: 'Logo 1',
     },
     {
-      src: 'https://framerusercontent.com/images/linLQMCTnqT2N4wxqgW4DbMw6A.png',
+      src: '/assets/framer/linLQMCTnqT2N4wxqgW4DbMw6A.png',
       alt: 'Logo 2',
     },
     {
-      src: 'https://framerusercontent.com/images/plx3j7H9GiMWXjNuYEWa1kBOxiU.png',
+      src: '/assets/framer/plx3j7H9GiMWXjNuYEWa1kBOxiU.png',
       alt: 'Logo 3',
     },
     {
-      src: 'https://framerusercontent.com/images/QhCKRc73O4ecSk6ZznVxHn2NY.png',
+      src: '/assets/framer/QhCKRc73O4ecSk6ZznVxHn2NY.png',
       alt: 'Logo 4',
     },
   ];

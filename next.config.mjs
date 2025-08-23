@@ -14,19 +14,15 @@ const nextConfig = {
         pathname: "/assets/images/**",
         search: "",
       },
-    ],
-    domains: ["framerusercontent.com"], // Thêm dòng này
-    remotePatterns: [
       {
-        protocol: "https",
-        hostname: "framerusercontent.com",
-        port: "",
-        pathname: "/**",
+        pathname: "/assets/framer/**",
+        search: "",
       },
     ],
+    domains: [],
+    remotePatterns: [],
   },
-  compiler: {
-  },
+  compiler: {},
   poweredByHeader: false,
   reactStrictMode: true,
 };

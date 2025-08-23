@@ -18,7 +18,7 @@ const Journey = () => {
       </div>
       <div className="mt-10 mx-auto max-w-7xl">
         <Image
-          src="https://framerusercontent.com/images/OyfDyvsu1CBZ7okFKxIu5XgJCQ.png"
+          src="/assets/framer/OyfDyvsu1CBZ7okFKxIu5XgJCQ.png"
           alt="Journey"
           width={2018}
           height={1000}

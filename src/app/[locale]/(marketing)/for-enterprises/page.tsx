@@ -13,12 +13,22 @@ export default async function AboutPage() {
           "linear-gradient(rgb(255, 239, 241) 0%, rgb(255, 239, 241) 52.8814%, rgb(245, 245, 255) 100%)",
       }}
     >
-      <main className="min-h-screen">
-        <Hero />
-        <Service />
-        <Testimonial />
-        <Feature />
-        <CTA />
+      <main className="min-h-screen max-w-[2018px] mx-auto">
+        <section className="max-w-7xl mx-auto">
+          <Hero />
+        </section>
+        <section className="max-w-7xl mx-auto">
+          <Service />
+        </section>
+        <section className="max-w-7xl mx-auto">
+          <Testimonial />
+        </section>
+        <section className="max-w-7xl mx-auto">
+          <Feature />
+        </section>
+        <section className="max-w-7xl mx-auto">
+          <CTA />
+        </section>
       </main>
     </div>
   );

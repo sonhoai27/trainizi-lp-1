@@ -6,3 +6,5 @@
 /.env.test.local
 /.env.production.local
 .next
+# Firebase service account key
+serviceAccountKey.json

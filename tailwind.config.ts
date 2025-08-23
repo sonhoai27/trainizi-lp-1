@@ -42,6 +42,20 @@ const config: Config = {
         ],
         sans: ["Inter", "Inter Placeholder", "sans-serif"],
       },
+      animation: {
+        marquee: "marquee 30s linear infinite",
+        "marquee-vertical": "marquee-vertical 30s linear infinite",
+      },
+      keyframes: {
+        marquee: {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(calc(-100% - 2rem))" },
+        },
+        "marquee-vertical": {
+          from: { transform: "translateY(0)" },
+          to: { transform: "translateY(calc(-100% - 2rem))" },
+        },
+      },
     },
   },
   plugins: [],
