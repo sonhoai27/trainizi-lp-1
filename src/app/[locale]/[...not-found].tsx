@@ -72,7 +72,7 @@ const NotFound: React.FC = () => {
 
             <Link
               href="/public"
-              className="rounded-lg bg-blue-600 px-6 py-3 text-white transition-all duration-200 hover:bg-blue-500 hover:shadow-lg"
+              className="rounded-lg bg-secondary px-6 py-3 text-white transition-all duration-200 hover:bg-red-500 hover:shadow-lg"
             >
               Back to Home
             </Link>

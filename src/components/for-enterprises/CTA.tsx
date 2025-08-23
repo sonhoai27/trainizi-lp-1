@@ -31,7 +31,7 @@ const CTA = () => {
               <div className="mb-4">
                 <textarea placeholder="Your Message (optional)" className="w-full p-3 rounded-lg text-gray-900" rows={4}></textarea>
               </div>
-              <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg">
+              <button type="submit" className="w-full bg-secondary hover:bg-red-700 text-white font-bold py-3 px-4 rounded-lg">
                 Submit
               </button>
             </form>

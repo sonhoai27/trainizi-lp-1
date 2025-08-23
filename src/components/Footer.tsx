@@ -42,7 +42,7 @@ const Footer = () => {
               <div>
                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">{t('legal.title')}</h3>
                 <ul className="mt-4 space-y-2">
-                  <li><a href="#" className="text-base text-gray-300 hover:text-white">{t('legal.terms')}</a></li>
+                  <li><a href="/terms" className="text-base text-gray-300 hover:text-white">{t('legal.terms')}</a></li>
                   <li><a href="#" className="text-base text-gray-300 hover:text-white">{t('legal.privacy')}</a></li>
                 </ul>
               </div>

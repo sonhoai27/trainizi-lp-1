@@ -53,7 +53,7 @@ const ContactForm = () => {
         </div>
         <button
           type="submit"
-          className="w-full bg-purple-600 text-white py-3 px-6 rounded-md hover:bg-purple-700 transition-colors"
+          className="w-full bg-purple-600 text-white py-3 px-6 rounded-[32px] hover:bg-purple-700 transition-colors"
         >
           {t('submit')}
         </button>

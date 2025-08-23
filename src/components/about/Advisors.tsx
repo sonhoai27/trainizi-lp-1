@@ -1,49 +1,50 @@
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
-interface AdvisorsProps {
-  title: string;
-}
+const Advisors = () => {
+  const t = useTranslations('about.advisors');
+  const logos = [
+    {
+      src: 'https://framerusercontent.com/images/LQW9UDEkUFXwNhGAdm8ob9HDcK8.png',
+      alt: 'Logo 1',
+    },
+    {
+      src: 'https://framerusercontent.com/images/linLQMCTnqT2N4wxqgW4DbMw6A.png',
+      alt: 'Logo 2',
+    },
+    {
+      src: 'https://framerusercontent.com/images/plx3j7H9GiMWXjNuYEWa1kBOxiU.png',
+      alt: 'Logo 3',
+    },
+    {
+      src: 'https://framerusercontent.com/images/QhCKRc73O4ecSk6ZznVxHn2NY.png',
+      alt: 'Logo 4',
+    },
+  ];
 
-const Advisors = ({ title }: AdvisorsProps) => {
   return (
-    <section className="bg-white py-16">
-      <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-8">{title}</h2>
+    <section className="relative w-full h-min overflow-hidden py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <div className="mx-auto max-w-7xl">
+        <div className="text-center">
+          <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+            {t('title')}
+          </h2>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-          <div className="flex justify-center items-center">
-            <Image
-              src="https://framerusercontent.com/images/LQW9UDEkUFXwNhGAdm8ob9HDcK8.png"
-              alt="Advisor 1"
-              width={196}
-              height={110}
-            />
-          </div>
-          <div className="flex justify-center items-center">
-            <Image
-              src="https://framerusercontent.com/images/linLQMCTnqT2N4wxqgW4DbMw6A.png"
-              alt="Advisor 2"
-              width={196}
-              height={110}
-            />
-          </div>
-          <div className="flex justify-center items-center">
-            <Image
-              src="https://framerusercontent.com/images/plx3j7H9GiMWXjNuYEWa1kBOxiU.png?scale-down-to=1024"
-              alt="Advisor 3"
-              width={299}
-              height={110}
-            />
-          </div>
-          <div className="flex justify-center items-center">
-            <Image
-              src="https://framerusercontent.com/images/QhCKRc73O4ecSk6ZznVxHn2NY.png?scale-down-to=2048"
-              alt="Advisor 4"
-              width={124}
-              height={50}
-            />
-          </div>
+        <div className="mt-12 grid grid-cols-2 gap-8 md:grid-cols-4">
+          {logos.map((logo, index) => (
+            <div
+              key={index}
+              className="flex justify-center items-center grayscale opacity-50 transition-all duration-300 hover:grayscale-0 hover:opacity-100 hover:scale-105"
+            >
+              <Image
+                src={logo.src}
+                alt={logo.alt}
+                width={200}
+                height={100}
+                className="object-contain"
+              />
+            </div>
+          ))}
         </div>
       </div>
     </section>

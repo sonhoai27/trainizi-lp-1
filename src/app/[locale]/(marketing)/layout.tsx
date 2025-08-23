@@ -1,4 +1,6 @@
-import { setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from 'next-intl/server';
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 
 export default async function Layout(props: {
   children: React.ReactNode;
@@ -8,10 +10,10 @@ export default async function Layout(props: {
   setRequestLocale(locale);
 
   return (
-    <div className="w-full"
-      
-    >
+    <div className="w-full">
+      <Header />
       {props.children}
+      <Footer />
     </div>
   );
 }

@@ -1,24 +1,29 @@
+import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 import React from 'react';
 
-interface CTAProps {
-  title: string;
-  subtitle: string;
-  buttonText: string;
-  buttonLink: string;
-}
-
-const CTA = ({ title, subtitle, buttonText, buttonLink }: CTAProps) => {
+const CTA = () => {
+  const t = useTranslations('about.cta');
   return (
-    <section className="bg-white py-16">
-      <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">{title}</h2>
-          <p className="text-lg text-gray-700 mb-8">{subtitle}</p>
-          <a
-            href={buttonLink}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg"
+    <section className="relative w-full h-min overflow-hidden py-20 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-48 bg-white">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+        <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          {t('title')}
+        </h2>
+        <div className="mt-8 flex justify-center gap-4">
+          <Link
+            href="/contact"
+            className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700"
           >
-            {buttonText}
+            {t('button')}
+          </Link>
+          <a
+            href="https://www.linkedin.com/company/trainizi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded-md border border-gray-300 bg-white px-8 py-3 text-base font-medium text-gray-700 hover:bg-gray-50"
+          >
+            {t('follow')}
           </a>
         </div>
       </div>

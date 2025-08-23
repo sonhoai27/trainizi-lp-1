@@ -18,6 +18,7 @@ const config: Config = {
         "framer-green": "rgb(8, 200, 94)",
         "framer-red": "rgb(204, 0, 0)",
         // Custom colors
+        "secondary": "rgb(204, 0, 0)",
         izi: {
           50: "#fff8f8",
           100: "#ffefef",

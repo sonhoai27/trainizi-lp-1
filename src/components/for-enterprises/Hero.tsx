@@ -17,7 +17,7 @@ export default function Hero() {
           </p>
         </div>
         <div className="text-center mb-12">
-          <Link href="https://calendar.app.google/jE5PFU8BvX9rvNC57" target="_blank" rel="noopener" className="inline-block bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors">
+          <Link href="https://calendar.app.google/jE5PFU8BvX9rvNC57" target="_blank" rel="noopener" className="inline-block bg-secondary text-white font-semibold py-3 px-8 rounded-lg hover:bg-red-700 transition-colors">
             Book A Demo
           </Link>
         </div>

@@ -1,28 +1,40 @@
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
-interface JourneyProps {
-  title: string;
-  subtitle: string;
-  image: string;
-}
+const Journey = () => {
+  const t = useTranslations('about');
 
-const Journey = ({ title, subtitle, image }: JourneyProps) => {
   return (
-    <section className="bg-white py-16">
-      <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">{title}</h2>
-          <p className="text-lg text-gray-700 mb-8">{subtitle}</p>
-          <div className="relative h-96">
-            <Image
-              src={image}
-              alt="Our Journey"
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg"
-            />
-          </div>
+    <section className="relative w-full h-min overflow-hidden pt-10 px-4 sm:px-6 lg:px-8 pb-20">
+      <div className="mx-auto max-w-7xl">
+        <div className="text-left">
+          <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+            {t("journey.title")}
+          </h2>
+          <p className="mt-4 text-base leading-6 text-gray-500 md:text-xl">
+            {t("journey.description")}
+          </p>
         </div>
+      </div>
+      <div className="mt-10 mx-auto max-w-7xl">
+        <Image
+          src="https://framerusercontent.com/images/OyfDyvsu1CBZ7okFKxIu5XgJCQ.png"
+          alt="Journey"
+          width={2018}
+          height={1000}
+          className="w-full rounded-lg"
+        />
+      </div>
+      <div className="mt-10 mx-auto max-w-7xl text-left">
+        <p className="mt-4 text-base leading-6 text-gray-500 md:text-xl">
+          {t("journey.content1")}
+        </p>
+        <p className="mt-4 text-base leading-6 text-gray-500 md:text-xl">
+          {t("journey.content2")}
+        </p>
+        <p className="mt-4 text-base leading-6 text-gray-500 md:text-xl">
+          {t("journey.content3")}
+        </p>
       </div>
     </section>
   );

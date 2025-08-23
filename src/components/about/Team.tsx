@@ -1,85 +1,70 @@
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
-interface TeamProps {
-  title: string;
+interface TeamMember {
+  name: string;
+  role: string;
+  keyword: string;
+  description: string[];
+  image: string;
+  quote: string;
+  quoteAuthor: string;
 }
 
-const Team = ({ title }: TeamProps) => {
+const Team = () => {
+  const t = useTranslations('about.team');
+  const teamMembers: TeamMember[] = t.raw('members');
+
   return (
-    <section className="bg-white py-16">
-      <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">{title}</h2>
+    <section className="relative w-full h-min overflow-hidden px-4 sm:px-6 lg:px-8 py-20 bg-gray-50">
+      <div className="mx-auto max-w-7xl">
+        <div className="text-center">
+          <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+            {t('title')}
+          </h2>
         </div>
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-gray-100 p-8 rounded-lg text-center">
-            <div className="relative w-48 h-48 mx-auto mb-4">
-              <Image
-                src="https://framerusercontent.com/images/AmxBHdodxPfjncssc8XBauSjmF0.png"
-                alt="Laura Phan"
-                layout="fill"
-                objectFit="cover"
-                className="rounded-full"
-              />
+        <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {teamMembers.map((member, index) => (
+            <div key={index} className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center min-h-[500px]">
+                  <div className="w-48 h-48 mx-auto">
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      width={192}
+                      height={192}
+                      className="rounded-2xl object-cover w-full h-full"
+                    />
+                  </div>
+                  <h3 className="mt-6 text-xl font-bold text-gray-900 md:text-2xl">
+                    {member.name}
+                  </h3>
+                  <p className="text-base font-semibold text-gray-600 md:text-lg">
+                    {member.role}
+                  </p>
+                  <p className="text-base mt-4 font-semibold text-gray-500 md:text-lg">
+                    {member.keyword}
+                  </p>
+                  <ul className="mt-4 text-left text-sm text-gray-600 space-y-3 flex-grow md:text-base">
+                    {member.description.map((desc, i) => (
+                      <li key={i} className="flex items-start">
+                        <span>{desc}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="flip-card-back bg-gray-800 text-white rounded-2xl shadow-lg p-6 flex flex-col justify-center items-center text-center">
+                  <blockquote className="text-lg italic md:text-xl">
+                    {member.quote}
+                  </blockquote>
+                  <cite className="mt-4 text-base not-italic md:text-lg">
+                    - {member.quoteAuthor}
+                  </cite>
+                </div>
+              </div>
             </div>
-            <h3 className="text-xl font-bold">Laura Phan</h3>
-            <p className="text-gray-600">CEO</p>
-            <p className="text-gray-700 mt-4">
-              2 prior exits
-              <br />
-              👍 Designed programs & trained for World Bank & Vietnamese
-              government.
-              <br />
-              💟 Loves dogs & trekking
-              <br />
-              😎 Often described as: "intellectually honest"
-            </p>
-          </div>
-          <div className="bg-gray-100 p-8 rounded-lg text-center">
-            <div className="relative w-48 h-48 mx-auto mb-4">
-              <Image
-                src="https://framerusercontent.com/images/hdWKQrznIjjLpArw0MqvOstlX4.png"
-                alt="Heath Nguyen"
-                layout="fill"
-                objectFit="cover"
-                className="rounded-full"
-              />
-            </div>
-            <h3 className="text-xl font-bold">Heath Nguyen</h3>
-            <p className="text-gray-600">COO</p>
-            <p className="text-gray-700 mt-4">
-              MSc. in Global Development
-              <br />
-              👍 Grew & operated the highest-traffic K12 edtech in Vietnam.
-              <br />
-              💟 Loves resting & K-dramas
-              <br />
-              😎 Often described as: "peacefully competitive"
-            </p>
-          </div>
-          <div className="bg-gray-100 p-8 rounded-lg text-center">
-            <div className="relative w-48 h-48 mx-auto mb-4">
-              <Image
-                src="https://framerusercontent.com/images/5Uhr6JGSVDwg41gDWSvPilgjT6k.jpg"
-                alt="Huy Vo"
-                layout="fill"
-                objectFit="cover"
-                className="rounded-full"
-              />
-            </div>
-            <h3 className="text-xl font-bold">Huy Vo</h3>
-            <p className="text-gray-600">CTO</p>
-            <p className="text-gray-700 mt-4">
-              PhD. in Computer Science
-              <br />
-              👍 Published 3 patents & 28 publications on data science, big
-              data, large-scale visualization & high-performance system
-              <br />
-              💟 Loves the cinema & biking
-              <br />
-              😎 Often described as: "emotionally rational"
-            </p>
-          </div>
+          ))}
         </div>
       </div>
     </section>

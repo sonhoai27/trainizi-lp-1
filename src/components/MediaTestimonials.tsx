@@ -46,12 +46,10 @@ const MediaTestimonials = () => {
   return (
     <section className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl text-black mb-4">
-            {t('title')}
-          </h2>
+        <div className="text-center mb-12 wow animate__animated animate__fadeInUp">
+          <h2 className="text-3xl sm:text-4xl text-black mb-4">{t("title")}</h2>
         </div>
-        
+
         <div className="flex flex-wrap justify-center items-center gap-8 lg:gap-12">
           {mediaLogos.map((media, index) => (
             <a
@@ -59,7 +57,7 @@ const MediaTestimonials = () => {
               href={media.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="group block transition-all duration-300"
+              className="group wow animate__animated animate__fadeInUp block transition-all duration-300"
             >
               <img
                 src={media.src}

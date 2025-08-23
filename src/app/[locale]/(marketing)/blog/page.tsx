@@ -1,12 +1,7 @@
-import CallToBanner from '@/components/CallToBanner';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 
 export default function BlogPage() {
   return (
     <div className="min-h-screen bg-izi-50 font-sans text-gray-900">
-      <CallToBanner />
-      <Header />
       <main className="min-h-screen">
         <section className="bg-framer-light-purple py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -58,7 +53,6 @@ export default function BlogPage() {
           </div>
         </section>
       </main>
-      <Footer />
     </div>
   );
 }

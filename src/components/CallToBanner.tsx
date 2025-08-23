@@ -16,7 +16,7 @@ const CallToBanner = () => {
             href="https://calendar.app.google/jE5PFU8BvX9rvNC57"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-white text-blue-600 py-2 px-6 rounded-lg hover:bg-blue-50 transition-colors duration-200"
+            className="inline-flex items-center gap-2 bg-white text-secondary py-2 px-6 rounded-[32px] hover:bg-red-50 transition-colors duration-200"
           >
             {t('button')}
             <svg

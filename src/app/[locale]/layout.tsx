@@ -33,7 +33,13 @@ export default async function RootLayout(props: {
 
   return (
     <html lang={locale}>
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-[linear-gradient(rgb(255,239,241)_0%,rgb(255,253,253)_100%)]`}>
+        <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+          integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+          crossOrigin="anonymous"
+          referrerPolicy="no-referrer"
+        ></script>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {props?.children}
         </NextIntlClientProvider>
