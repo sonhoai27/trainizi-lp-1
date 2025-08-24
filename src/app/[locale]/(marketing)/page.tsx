@@ -3,24 +3,13 @@ import Features from '@/components/Features';
 import MediaTestimonials from '@/components/MediaTestimonials';
 import NewsletterSignup from '@/components/NewsletterSignup';
 
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 import WowWrapper from '@/components/WowWrapper';
 
 type IIndexProps = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata(props: IIndexProps) {
-  const { locale } = await props.params;
-  const t = await getTranslations({
-    locale,
-  });
-
-  return {
-    title: t("title"),
-    description: t("description"),
-  };
-}
 
 export default async function HomePage(props: IIndexProps) {
   const { locale } = await props.params;

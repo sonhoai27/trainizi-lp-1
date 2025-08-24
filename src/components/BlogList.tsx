@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 import { db } from '@/libs/firebase';
+import { useTranslations } from 'next-intl';
 
 interface Post {
   id: string;
@@ -38,6 +39,7 @@ async function getMorePosts(last: any) {
 }
 
 export default function BlogList({ initialPosts }: { initialPosts: Post[] }) {
+  const t = useTranslations('blog');
   const [posts, setPosts] = useState(initialPosts);
   const [last, setLast] = useState<any>(
     initialPosts[initialPosts.length - 1]?.date,
@@ -45,7 +47,6 @@ export default function BlogList({ initialPosts }: { initialPosts: Post[] }) {
   const [loading, setLoading] = useState(false);
 
   const loadMore = async () => {
-    console.log("Loading more posts...", last);
     setLoading(true);
     const { posts: newPosts, lastVisible } = await getMorePosts(last);
     setPosts((prev) => [...prev, ...newPosts]);
@@ -85,7 +86,7 @@ export default function BlogList({ initialPosts }: { initialPosts: Post[] }) {
           disabled={loading}
           className="bg-izi-600 text-white px-6 py-3 rounded-lg"
         >
-          {loading ? "Loading..." : "Load More"}
+          {loading ? <span className='spinner-border animate-spin inline-block w-4 h-4 border-4 rounded-full border-current border-t-transparent' /> : t("loadMore")}
         </button>
       </div>
     </>

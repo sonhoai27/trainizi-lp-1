@@ -24,7 +24,7 @@ export default function Hero() {
             href="https://calendar.app.google/jE5PFU8BvX9rvNC57"
             target="_blank"
             rel="noopener"
-            className="inline-block bg-secondary text-white font-semibold py-3 px-8 rounded-lg hover:bg-red-700 transition-colors"
+            className="inline-block bg-secondary text-white font-semibold py-3 px-8 rounded-full hover:bg-red-700 transition-colors"
           >
             {t("bookDemo")}
           </Link>
